@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: oauth2
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.98.149.207:8848
+        file-extension: yaml
+        namespace: dev
+        group: v1.0
+        username: dev
+        password: 123456
+
+
